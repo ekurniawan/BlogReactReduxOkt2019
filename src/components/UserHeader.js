@@ -4,7 +4,7 @@ import {fetchUser} from '../actions';
 
 class UserHeader extends React.Component{
     componentDidMount(){
-        this.props.fetchUser(this.props.userId);
+        //this.props.fetchUser(this.props.userId);
     }
 
     render(){
